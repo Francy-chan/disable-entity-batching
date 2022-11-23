@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "no_entity_batching",
+  "version": "${version}",
+
+  "name": "No Entity Batching",
+  "description": "Disables Iris Entitty Batching, not effectively, so bugs may happen",
+  "authors": [
+    "Francy-Chan"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Francy-chan/disable-entity-batching/",
+    "issues": "https://github.com/Francy-chan/disable-entity-batching/issues"
+  },
+
+  "license": "LGPL-2.1",
+  "icon": "assets/no_entity_batching/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "no_entity_batching.mixins.json"
+  ],
+
+  "depends": {
+    "java": ">=${java_version}",
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${loader_version}",
+    "iris": ">=${iris_version}"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Ko-fi": "https://ko-fi.com/francy_chan"
+      }
+    }
+  }
+}
