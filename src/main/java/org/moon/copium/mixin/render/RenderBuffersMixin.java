@@ -1,4 +1,4 @@
-package org.moon.no_entity_batching.mixin.render;
+package org.moon.copium.mixin.render;
 
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.OutlineBufferSource;

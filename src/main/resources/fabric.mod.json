@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "no_entity_batching",
+  "id": "copium",
   "version": "${version}",
 
-  "name": "No Entity Batching",
+  "name": "Copium",
   "description": "Disables Iris Entitty Batching, not effectively, so bugs may happen",
   "authors": [
     "Francy-Chan"
@@ -14,18 +14,15 @@
   },
 
   "license": "LGPL-2.1",
-  "icon": "assets/no_entity_batching/icon.png",
+  "icon": "assets/copium/icon.png",
 
   "environment": "client",
   "entrypoints": {},
   "mixins": [
-    "no_entity_batching.mixins.json"
+    "copium.mixins.json"
   ],
 
   "depends": {
-    "java": ">=${java_version}",
-    "minecraft": "${minecraft_version}",
-    "fabricloader": ">=${loader_version}",
     "iris": "*"
   },
   "custom": {
